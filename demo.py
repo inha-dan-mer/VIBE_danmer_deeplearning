@@ -261,6 +261,9 @@ def main(args):
 
     end = time.time()
     fps = num_frames / (end - vibe_time)
+    
+    print(joints2d_img_coord)
+    np.save('./save_tutor_coordin', joints2d_img_coord)
 
     print(f'VIBE FPS: {fps:.2f}')
     total_time = time.time() - total_time
