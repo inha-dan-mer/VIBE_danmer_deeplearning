@@ -6,6 +6,6 @@
 # unzip vibe_data.zip
 # rm vibe_data.zip
 # cd ..
-mv /content/VIBE/data/vibe_data/sample_video.mp4 .
+mv /ubuntu/VIBE/data/vibe_data/sample_video.mp4 .
 mkdir -p $HOME/.torch/models/
-mv /content/VIBE/data/vibe_data/yolov3.weights $HOME/.torch/models/
+mv /ubuntu/VIBE/data/vibe_data/yolov3.weights $HOME/.torch/models/
